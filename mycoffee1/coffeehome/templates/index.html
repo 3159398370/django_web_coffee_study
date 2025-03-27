@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!--这是解释编码格式-->
+	<meta charset="UTF-8">
+	<title>咖啡圣地的特色</title>
+    {% load static %}
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+	<div id="page">
+		<div>
+			<div id="header">
+				<a href="index.html"><img src="{% static 'images/logo.png' %}" alt="Image"></a>
+				<ul>
+					<li class="current">
+						<a href="/coffeehome/index">主页</a>
+					</li>
+					<li>
+						<a href="/coffeehome/menu">菜单</a>
+					</li>
+					<li>
+						<a href="/coffeehome/locations">新产品</a>
+					</li>
+					<li>
+						<a href="/coffeehome/blog">品牌特色</a>
+					</li>
+					<li>
+						<a href="/coffeehome/about">关于我们</a>
+					</li>
+					<li>
+						<tr>
+							<td>登录</td>
+							<td>注册</td>
+						</tr>
+					</li>
+				</ul>
+			</div>
+			<div id="body">
+				<div id="figure">
+					<img src="{% static 'images/headline-home.jpg' %}" alt="Image">
+					<span id="home">香醇体验，随时拥有 </span>
+				</div>
+				<div id="featured">
+					<span class="whatshot"><a href="menu.html">Find out more</a></span>
+					<div>
+						<a href="menu.html"><img src="{% static 'images/coffee1.jpg' %}" alt="Image"></a>
+						<a href="menu.html"><img src="{% static 'images/coffee2.jpg' %}" alt="Image"></a>
+						<a href="menu.html"><img src="{% static 'images/coffee3.jpg' %}" alt="Image"></a>
+					</div>
+				</div>
+				<div class="section">
+					<ul>
+						<li>
+							<a href="blog.html"><img src="{% static 'images/coffee-ingredients.jpg' %}" alt="Image"></a>
+							<h2><a href="blog.html">咖啡豆</a></h2>
+							<p>
+								广义的讲世界上有2种咖啡豆，阿拉比卡豆和罗伯斯塔豆。最早期阿拉伯人食用咖啡的方式是将整颗果实咀嚼，以吸取其汁液。后来通过煮味道更好。
+							</p>
+							<a href="blog.html" class="readmore">更多</a>
+						</li>
+						<li>
+							<a href="blog.html"><img src="{% static 'images/black-coffee.jpg' %}" alt="Image"></a>
+							<h2><a href="blog.html">咖啡产地</a></h2>
+							<p>要了解生产咖啡的国家，最理智实用之法，是将它们分类为世界三大主要咖啡栽培生长地区：非洲、印度尼西亚及中南美洲。一般来说，邻近生长的咖啡都有相似的特色。
+						  </p>
+							<a href="blog.html" class="readmore">更多</a>
+						</li>
+						<li>
+							<a href="blog.html"><img src="{% static 'images/chocolate.jpg' %}" alt="Image"></a>
+							<h2><a href="blog.html">咖啡分类</a></h2>
+							<p>一般来说，酸味系的咖啡豆，尤其以高质量的新豆居多，烘培程度最好浅些，而苦味系则烘培程度要深些，然后甜味系则多属高地产水洗式精选豆
+						  </p>
+							<a href="blog.html" class="readmore">更多</a>
+						</li>
+					</ul>
+					<div>
+						<ul>
+							<li>
+								<h3><a href="blog.html">外形判断</a></h3>
+								<p>
+									美味的咖啡，从其煎焙后咖啡豆的形状即可知晓，当然不能有不良的咖啡豆混入，更要注意的是正常的豆也会掺杂入优质的咖啡豆而造成妨碍。一颗可冲泡出美味咖啡的煎焙豆，首先必须是豆大肥美，而且绉折均匀，其次是大小一致且无色无斑。这些是视觉判别的要点，如果细心去看，应不难分辨。</p>
+								<a href="blog.html" class="readmore">Read more</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div>
+					<a href="index.html"><img src="{% static 'images/logo2.png' %}" alt="Image"></a>
+					<p class="footnote">
+						&copy; Yay&#33;Koffee 2011.<br>All rights reserved.&nbsp;<a href="http://www.xtgov.net/" title="迅腾科技" target="_blank">迅腾科技</a>
+					</p>
+				</div>
+				<div class="section">
+					<ul>
+						<li class="current">
+							<a href="index.html">主页</a>
+						</li>
+						<li>
+							<a href="menu.html">菜单</a>
+						</li>
+						<li>
+							<a href="locations.html">新产品</a>
+						</li>
+						<li>
+							<a href="blog.html">品牌特色</a>
+						</li>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+					</ul>
+					<div id="connect">
+						<a href="#" target="_blank" id="facebook">Facebook</a>
+						<a href="#" target="_blank" id="twitter">Twitter</a>
+						<a href="#" target="_blank" id="googleplus"></a>
+						<a href="index.html" id="rss">RSS</a>
+					</div>
+					<p>
+						<h3> 所有的内容版权归<a href="http://www.snbc.edu.cn/" title="陕工商" target="_blank">陕工商</a> 所有，盗版必究。</h3>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

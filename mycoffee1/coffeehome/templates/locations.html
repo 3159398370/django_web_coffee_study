@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>咖啡圣地的特色</title>
+    {% load static %}
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+	<div id="page">
+		<div>
+			<div id="header">
+				<a href="index.html"><img src="{% static 'images/logo.png' %}" alt="Image"></a>
+				<ul>
+						<li class="current">
+						<a href="/coffeehome/index">主页</a>
+					</li>
+					<li>
+						<a href="/coffeehome/menu">菜单</a>
+					</li>
+					<li>
+						<a href="/coffeehome/locations">新产品</a>
+					</li>
+					<li>
+						<a href="/coffeehome/blog">品牌特色</a>
+					</li>
+					<li>
+						<a href="/coffeehome/about">关于我们</a>
+					</li>
+				</ul>
+			</div>
+			<div id="body">
+				<div id="figure">
+					<img src="{% static 'images/headline-locations.jpg' %}" alt="Image">
+				</div>
+				<div>
+					<a href="locations.html" class="locations">Locations</a>
+					<div>
+						<dl>
+							<dt>经典/浓缩咖啡</dt>
+							<dd>焦糖玛奇朵</dd>
+							<dd>摩卡咖啡</dd>
+							<dd>美式咖啡</dd>
+							<dd>卡布奇诺</dd>
+						</dl>
+						<dl>
+							<dt>冰咖啡/清凉系列</dt>
+							<dd>冰摩卡咖啡</dd>
+							<dd>冰焦糖玛奇朵</dd>
+							<dd>冰美式咖啡</dd>
+							<dd>冰拿铁咖啡</dd>
+						</dl>
+						<dl>
+							<dt>星冰乐咖啡</dt>
+							<dd>咖啡星冰乐</dd>
+							<dd>摩卡咖啡星冰乐</dd>
+							<dd>焦糖咖啡星冰乐</dd>
+							<dd>拿铁咖啡星冰乐</dd>
+						</dl>
+						<dl>
+							<dt>星冰乐无咖啡</dt>
+							<dd>香草星冰乐</dd>
+							<dd>巧克力星冰乐</dd>
+							<dd>芒果星冰乐</dd>
+							<dd>橙子星冰乐</dd>
+						</dl>
+						<dl>
+							<dt>泰舒茶系列</dt>
+							<dd>伯爵红茶</dd>
+							<dd>伯爵绿茶</dd>
+							<dd>泰舒早餐茶</dd>
+							<dd>泰舒下午茶</dd>
+						</dl>
+						<dl>
+							<dt>糕点</dt>
+							<dd>麦芬巧克力</dd>
+							<dd>各式面包</dd>
+							<dd>蔬菜派</dd>
+							<dd>水果沙拉</dd>
+						</dl>
+						<dl>
+							<dt>主餐系列</dt>
+							<dd>法式三明治</dd>
+							<dd>意大利面</dd>
+							<dd>玉米浓汤</dd>
+							<dd>沙拉</dd>
+						</dl>
+						<dl>
+							<dt>原始咖啡豆</dt>
+							<dd>桶装咖啡</dd>
+							<dd>桶装咖啡豆</dd>
+							<dd>各式散装咖啡豆</dd>
+							<dd>咖啡蛋卷</dd>
+						</dl>
+						<dl>
+							<dt>咖啡蛋卷系列</dt>
+							<dd>咖啡牛奶蛋卷</dd>
+							<dd>水果柠檬蛋卷</dd>
+							<dd>早餐蛋卷饼</dd>
+							<dd>黄金如意卷</dd>
+						</dl>
+						<dl>
+							<dt>随心搭</dt>
+							<dd>提拉米苏/抹茶拿铁</dd>
+							<dd>蓝莓麦芬/烤牛肉甜椒三明治</dd>
+							<dd>纽约芝士蛋糕/法式马卡龙</dd>
+							<dd>太妃榛果牛轧糖/咖啡意式硬饼</dd>
+						</dl>
+					</div>
+				</div>
+			<div class="ep-pages"> 
+			<span class="ep-pages-e5e5e5">首页</span> 
+			<span class="ep-pages-ctrl ep-pages-e5e5e5">&lt;</span>
+			<a href="#" target="_self" class="current">1</a> 
+			<a href="#" target="_self">2</a>
+			<a href="#" target="_self">3</a>
+			<span>...</span>
+			<a href="#" target="_self" class="ep-pages-ctrl">&gt;</a> <a href="#" target="_self">尾页</a>
+			</div> 
+		</div>	
+			<div id="footer">
+				<div>
+					<a href="index.html"><img src="{% static 'images/logo2.png' %}" alt="Image"></a>
+					<p class="footnote">
+						&copy; Yay&#33;Koffee 2011.<br>All rights reserved.&nbsp;<a href="http://www.xtgov.net/" title="迅腾科技" target="_blank">迅腾科技</a>
+					</p>
+				</div>
+				<div class="section">
+					<ul>
+						<li >
+							<a href="index.html">主页</a>
+						</li>
+						<li>
+							<a href="menu.html">菜单</a>
+						</li>
+						<li>
+							<a href="locations.html">新产品</a>
+						</li>
+						<li>
+							<a href="blog.html">品牌特色</a>
+						</li>
+						<li>
+							<a href="about.html">关于我们</a>
+						</li>
+					</ul>
+					<div id="connect">
+						<a href="#" target="_blank" id="facebook">Facebook</a>
+						<a href="#" target="_blank" id="twitter">Twitter</a>
+						<a href="#" target="_blank" id="googleplus">Google+</a>
+						<a href="index.html" id="rss">RSS</a>
+					</div>
+					<p>
+						<h3> 所有的内容版权归<a href="http://www.snbc.edu.cn/" title="陕工商" target="_blank">陕工商</a> 所有，盗版必究。</h3>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
